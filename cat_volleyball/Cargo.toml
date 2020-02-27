@@ -1,0 +1,9 @@
+[package]
+name = "cat_volleyball"
+version = "0.1.0"
+authors = ["Shing Lyu"]
+edition = "2018"
+
+[dependencies]
+amethyst = { version = "0.13.2", features = ["vulkan"] }
+rand = "0.6.5"

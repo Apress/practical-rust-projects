@@ -1,0 +1,2425 @@
+[37m[INFO][winit::platform::platform::x11::window] Guessed window DPI factor: 1.0833333333333333[0m
+[37m[DEBUG][winit::platform::platform::x11::window] Calculated physical dimensions: 495x495[0m
+[37m[INFO][gfx_device_gl::info] parsing version '4.5 (Core Profile) Mesa 18.0.5'[0m
+[37m[INFO][gfx_device_gl::info] parsing version '4.50'[0m
+[37m[INFO][gfx_device_gl] Info { platform_name: PlatformName { vendor: "Intel Open Source Technology Center", renderer: "Mesa DRI Intel(R) HD Graphics 620 (Kaby Lake GT2) " }, version: 4.5, shading_language: 4.50, extensions: {"GL_ARB_draw_buffers_blend", "GL_KHR_texture_compression_astc_ldr", "GL_APPLE_object_purgeable", "GL_ARB_occlusion_query2", "GL_ARB_shader_texture_image_samples", "GL_ARB_depth_clamp", "GL_ARB_pixel_buffer_object", "GL_ARB_shader_image_load_store", "GL_ANGLE_texture_compression_dxt3", "GL_ARB_cull_distance", "GL_ARB_robustness", "GL_ARB_direct_state_access", "GL_AMD_vertex_shader_viewport_index", "GL_ARB_map_buffer_alignment", "GL_ARB_sample_shading", "GL_EXT_texture_array", "GL_ARB_gpu_shader_int64", "GL_ARB_texture_rg", "GL_EXT_polygon_offset_clamp", "GL_MESA_texture_signed_rgba", "GL_KHR_robust_buffer_access_behavior", "GL_ARB_sync", "GL_ARB_framebuffer_object", "GL_EXT_pixel_buffer_object", "GL_EXT_framebuffer_multisample", "GL_ARB_point_sprite", "GL_ARB_separate_shader_objects", "GL_AMD_conservative_depth", "GL_ARB_instanced_arrays", "GL_EXT_texture_filter_anisotropic", "GL_ARB_shader_texture_lod", "GL_ARB_texture_cube_map_array", "GL_ARB_vertex_attrib_64bit", "GL_ARB_texture_buffer_range", "GL_ARB_fragment_layer_viewport", "GL_S3_s3tc", "GL_NV_depth_clamp", "GL_ARB_shader_stencil_export", "GL_ARB_shader_ballot", "GL_EXT_blend_equation_separate", "GL_ARB_texture_buffer_object_rgb32", "GL_EXT_abgr", "GL_NV_texture_barrier", "GL_ARB_draw_indirect", "GL_ARB_shader_atomic_counter_ops", "GL_ARB_texture_query_levels", "GL_EXT_texture_shared_exponent", "GL_AMD_shader_trinary_minmax", "GL_ARB_gpu_shader_fp64", "GL_EXT_transform_feedback", "GL_KHR_texture_compression_astc_sliced_3d", "GL_ARB_texture_query_lod", "GL_ARB_texture_storage", "GL_ARB_shader_precision", "GL_INTEL_performance_query", "GL_KHR_robustness", "GL_ARB_vertex_shader", "GL_ARB_vertex_type_10f_11f_11f_rev", "GL_MESA_pack_invert", "GL_ARB_texture_view", "GL_ARB_get_program_binary", "GL_ARB_transform_feedback_overflow_query", "GL_ARB_vertex_type_2_10_10_10_rev", "GL_KHR_blend_equation_advanced_coherent", "GL_ARB_provoking_vertex", "GL_ARB_vertex_array_bgra", "GL_ARB_shader_image_size", "GL_ARB_texture_compression_rgtc", "GL_KHR_blend_equation_advanced", "GL_AMD_draw_buffers_blend", "GL_ARB_buffer_storage", "GL_ARB_internalformat_query2", "GL_ARB_framebuffer_no_attachments", "GL_ARB_enhanced_layouts", "GL_EXT_shader_samples_identical", "GL_ARB_texture_rectangle", "GL_ARB_multi_draw_indirect", "GL_ARB_texture_storage_multisample", "GL_ARB_conditional_render_inverted", "GL_ARB_uniform_buffer_object", "GL_ARB_texture_stencil8", "GL_ARB_ES3_compatibility", "GL_ARB_transform_feedback3", "GL_ARB_draw_buffers", "GL_ARB_texture_gather", "GL_EXT_texture_compression_rgtc", "GL_ARB_blend_func_extended", "GL_ARB_stencil_texturing", "GL_ARB_draw_instanced", "GL_OES_EGL_image", "GL_ARB_explicit_uniform_location", "GL_ARB_texture_rgb10_a2ui", "GL_ARB_shader_objects", "GL_ARB_fragment_coord_conventions", "GL_ARB_derivative_control", "GL_IBM_multimode_draw_arrays", "GL_EXT_timer_query", "GL_ARB_base_instance", "GL_ARB_timer_query", "GL_ARB_fragment_shader", "GL_EXT_texture_snorm", "GL_ARB_multi_bind", "GL_ARB_post_depth_coverage", "GL_NV_conditional_render", "GL_ARB_robust_buffer_access_behavior", "GL_ARB_viewport_array", "GL_ARB_copy_buffer", "GL_ARB_invalidate_subdata", "GL_ARB_map_buffer_range", "GL_EXT_packed_float", "GL_ARB_program_interface_query", "GL_ARB_shader_group_vote", "GL_3DFX_texture_compression_FXT1", "GL_ARB_shader_viewport_layer_array", "GL_MESA_shader_integer_functions", "GL_ARB_explicit_attrib_location", "GL_ARB_shader_atomic_counters", "GL_KHR_no_error", "GL_ARB_framebuffer_sRGB", "GL_ATI_blend_equation_separate", "GL_ARB_ES3_1_compatibility", "GL_ARB_indirect_parameters", "GL_EXT_texture_swizzle", "GL_ARB_transform_feedback2", "GL_ARB_pipeline_statistics_query", "GL_ARB_draw_elements_base_vertex", "GL_ARB_ES3_2_compatibility", "GL_ARB_shader_draw_parameters", "GL_ARB_shading_language_packing", "GL_ARB_shading_language_420pack", "GL_ARB_get_texture_sub_image", "GL_EXT_texture_sRGB", "GL_ARB_clear_texture", "GL_ARB_texture_swizzle", "GL_ARB_conservative_depth", "GL_ARB_query_buffer_object", "GL_EXT_vertex_array_bgra", "GL_ARB_shader_subroutine", "GL_ANGLE_texture_compression_dxt5", "GL_ARB_copy_image", "GL_ARB_half_float_pixel", "GL_ARB_shader_bit_encoding", "GL_EXT_draw_instanced", "GL_AMD_vertex_shader_layer", "GL_ARB_internalformat_query", "GL_ARB_vertex_attrib_binding", "GL_ARB_clear_buffer_object", "GL_ARB_vertex_array_object", "GL_ARB_texture_compression_bptc", "GL_ARB_clip_control", "GL_ARB_texture_filter_anisotropic", "GL_ARB_texture_float", "GL_EXT_framebuffer_sRGB", "GL_ARB_texture_non_power_of_two", "GL_KHR_context_flush_control", "GL_ARB_depth_buffer_float", "GL_EXT_texture_compression_dxt1", "GL_ARB_debug_output", "GL_ARB_seamless_cube_map", "GL_ARB_compute_shader", "GL_ARB_gpu_shader5", "GL_KHR_debug", "GL_EXT_draw_buffers2", "GL_EXT_texture_integer", "GL_ARB_polygon_offset_clamp", "GL_AMD_shader_stencil_export", "GL_EXT_provoking_vertex", "GL_NV_packed_depth_stencil", "GL_ARB_texture_mirror_clamp_to_edge", "GL_ATI_texture_float", "GL_ARB_tessellation_shader", "GL_EXT_texture_sRGB_decode", "GL_ARB_arrays_of_arrays", "GL_ARB_compressed_texture_pixel_storage", "GL_ARB_ES2_compatibility", "GL_ARB_texture_buffer_object", "GL_EXT_packed_depth_stencil", "GL_EXT_shader_integer_mix", "GL_ARB_shader_clock", "GL_EXT_texture_compression_s3tc", "GL_ARB_texture_multisample", "GL_ARB_transform_feedback_instanced", "GL_EXT_framebuffer_blit", "GL_ARB_texture_barrier", "GL_ARB_seamless_cubemap_per_texture", "GL_INTEL_conservative_rasterization", "GL_ARB_sampler_objects", "GL_AMD_seamless_cubemap_per_texture", "GL_ARB_half_float_vertex", "GL_ARB_shader_storage_buffer_object", "GL_EXT_framebuffer_multisample_blit_scaled"} }[0m
+[37m[INFO][gfx_device_gl] Capabilities { max_vertex_count: 3000, max_index_count: 3000, max_texture_size: 16384, max_patch_size: 32, instance_base_supported: true, instance_call_supported: true, instance_rate_supported: true, vertex_base_supported: true, srgb_color_supported: true, constant_buffer_supported: true, unordered_access_view_supported: true, separate_blending_slots_supported: true, copy_buffer_supported: true }[0m
+[37m[INFO][gfx_device_gl] PrivateCaps { array_buffer_supported: true, frame_buffer_supported: true, immutable_storage_supported: true, sampler_objects_supported: true, program_interface_supported: true, buffer_storage_supported: true, clear_buffer_supported: true, frag_data_location_supported: true, sampler_lod_bias_supported: true, texture_border_clamp_supported: true, texture_view_supported: true }[0m
+[37m[INFO][gfx_device_gl::factory] 	Created frame buffer 1[0m
+[37m[DEBUG][amethyst_renderer::pipe::effect] Building effect[0m
+[37m[DEBUG][amethyst_renderer::pipe::effect] Compiling shaders[0m
+[37m[INFO][gfx_device_gl::shade] 	Compiled shader 1[0m
+[37m[INFO][gfx_device_gl::shade] 	Compiled shader 2[0m
+[37m[DEBUG][amethyst_renderer::pipe::effect] Creating pipeline state[0m
+[37m[INFO][gfx_device_gl::shade] 	Linked program 3[0m
+[37m[INFO][gfx_device_gl::shade] 		Sampler[0] = 'albedo'	F32	D2(NoArray, NoMultiSample)[0m
+[37m[INFO][gfx_device_gl::shade] 		Attrib[-1] = "gl_VertexID"	I32	Single[0m
+[37m[INFO][gfx_device_gl::shade] 		Attrib[0] = "dir_x"	F32	Vector(2)[0m
+[37m[INFO][gfx_device_gl::shade] 		Attrib[1] = "dir_y"	F32	Vector(2)[0m
+[37m[INFO][gfx_device_gl::shade] 		Attrib[2] = "pos"	F32	Vector(2)[0m
+[37m[INFO][gfx_device_gl::shade] 		Attrib[3] = "depth"	F32	Single[0m
+[37m[INFO][gfx_device_gl::shade] 		Attrib[4] = "u_offset"	F32	Vector(2)[0m
+[37m[INFO][gfx_device_gl::shade] 		Attrib[5] = "v_offset"	F32	Vector(2)[0m
+[37m[INFO][gfx_device_gl::shade] 		Attrib[6] = "color"	F32	Vector(4)[0m
+[37m[INFO][gfx_device_gl::shade] 		Block[0] = 'ViewArgs' of size 128[0m
+[37m[INFO][gfx_device_gl::shade] 			Element at 64	= 'view'	F32	Matrix(ColumnMajor, 4, 4)[0m
+[37m[INFO][gfx_device_gl::shade] 			Element at 0	= 'proj'	F32	Matrix(ColumnMajor, 4, 4)[0m
+[37m[DEBUG][gfx_device_gl::shade] Program 3 reflection: ProgramInfo { vertex_attributes: [AttributeVar { name: "dir_x", slot: 0, base_type: F32, container: Vector(2) }, AttributeVar { name: "dir_y", slot: 1, base_type: F32, container: Vector(2) }, AttributeVar { name: "pos", slot: 2, base_type: F32, container: Vector(2) }, AttributeVar { name: "depth", slot: 3, base_type: F32, container: Single }, AttributeVar { name: "u_offset", slot: 4, base_type: F32, container: Vector(2) }, AttributeVar { name: "v_offset", slot: 5, base_type: F32, container: Vector(2) }, AttributeVar { name: "color", slot: 6, base_type: F32, container: Vector(4) }], globals: [], constant_buffers: [ConstantBufferVar { name: "ViewArgs", slot: 0, size: 128, usage: VERTEX, elements: [ConstVar { name: "view", location: 64, count: 1, base_type: F32, container: Matrix(ColumnMajor, 4, 4) }, ConstVar { name: "proj", location: 0, count: 1, base_type: F32, container: Matrix(ColumnMajor, 4, 4) }] }], textures: [TextureVar { name: "albedo", slot: 0, base_type: F32, ty: D2(NoArray, NoMultiSample), usage: VERTEX | PIXEL }], unordereds: [], samplers: [SamplerVar { name: "albedo", slot: 0, ty: SamplerType(NoCompare, NoRect), usage: VERTEX | PIXEL }], outputs: [OutputVar { name: "color", slot: 0, base_type: F32, container: Vector(4) }], output_depth: false, knows_outputs: true }[0m
+[37m[DEBUG][amethyst_renderer::pipe::effect] Creating raw constant buffers[0m
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 1[0m
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 2[0m
+[37m[DEBUG][amethyst_renderer::pipe::effect] Set global uniforms[0m
+[37m[DEBUG][amethyst_renderer::pipe::effect] Process Color/Depth/Blend outputs[0m
+[37m[DEBUG][amethyst_renderer::pipe::effect] Finished building effect[0m
+[37m[INFO][amethyst::app] Initializing Amethyst...[0m
+[37m[INFO][amethyst::app] Version: 0.10.0[0m
+[37m[INFO][amethyst::app] Platform: x86_64-unknown-linux-gnu[0m
+[37m[INFO][amethyst::app] Amethyst git commit: [0m
+[37m[INFO][amethyst::app] Rustc version: 1.34.0 Stable[0m
+[37m[INFO][amethyst::app] Rustc git commit: 91856ed52c58aa5ba66a015354d1cc69e9779bdf[0m
+[37m[DEBUG][amethyst_assets::loader] "renderer::Texture": Loading asset "texture/spritesheet.png" with format "PNG" from source "[default source]" (handle id: Handle { id: 7 })[0m
+[37m[DEBUG][amethyst_assets::loader] "renderer::SpriteSheet": Loading asset "texture/spritesheet.ron" with format "SPRITE_SHEET" from source "[default source]" (handle id: Handle { id: 0 })[0m
+player_size: 1, 1
+ball: 100, 100
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 100, 100
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[DEBUG][amethyst_assets::storage] "renderer::Texture": Asset "<Data>" (handle id: Handle { id: 0 }) has been loaded successfully[0m
+[37m[DEBUG][amethyst_assets::storage] "renderer::Texture": Asset "<Data>" (handle id: Handle { id: 1 }) has been loaded successfully[0m
+[37m[DEBUG][amethyst_assets::storage] "renderer::Texture": Asset "<Data>" (handle id: Handle { id: 2 }) has been loaded successfully[0m
+[37m[DEBUG][amethyst_assets::storage] "renderer::Texture": Asset "<Data>" (handle id: Handle { id: 3 }) has been loaded successfully[0m
+[37m[DEBUG][amethyst_assets::storage] "renderer::Texture": Asset "<Data>" (handle id: Handle { id: 4 }) has been loaded successfully[0m
+[37m[DEBUG][amethyst_assets::storage] "renderer::Texture": Asset "<Data>" (handle id: Handle { id: 5 }) has been loaded successfully[0m
+[37m[DEBUG][amethyst_assets::storage] "renderer::Texture": Asset "<Data>" (handle id: Handle { id: 6 }) has been loaded successfully[0m
+[37m[DEBUG][amethyst_assets::storage] "renderer::Texture": Asset "texture/spritesheet.png" (handle id: Handle { id: 7 }) has been loaded successfully[0m
+[33m[WARN][amethyst_renderer::pass::flat2d::interleaved] Sprite sheet not loaded for sprite_render: `SpriteRender { sprite_sheet: Handle { id: 0 }, sprite_number: 2 }`.[0m
+[33m[WARN][amethyst_renderer::pass::flat2d::interleaved] Sprite sheet not loaded for sprite_render: `SpriteRender { sprite_sheet: Handle { id: 0 }, sprite_number: 0 }`.[0m
+[33m[WARN][amethyst_renderer::pass::flat2d::interleaved] Sprite sheet not loaded for sprite_render: `SpriteRender { sprite_sheet: Handle { id: 0 }, sprite_number: 1 }`.[0m
+[37m[DEBUG][amethyst_assets::storage] "renderer::SpriteSheet": Asset "texture/spritesheet.ron" (handle id: Handle { id: 0 }) has been loaded successfully[0m
+player_size: 1, 1
+ball: 100.47645, 99.99496
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 100.47645, 99.99496
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 3[0m
+player_size: 1, 1
+ball: 100.68628, 99.98953
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 100.68628, 99.98953
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 4[0m
+player_size: 1, 1
+ball: 100.893, 99.98228
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 100.893, 99.98228
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 5[0m
+player_size: 1, 1
+ball: 101.10015, 99.9731
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 101.10015, 99.9731
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 6[0m
+player_size: 1, 1
+ball: 101.30836, 99.96195
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 101.30836, 99.96195
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 7[0m
+player_size: 1, 1
+ball: 101.70062, 99.93572
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 101.70062, 99.93572
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 8[0m
+player_size: 1, 1
+ball: 102.217575, 99.89071
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 102.217575, 99.89071
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 9[0m
+player_size: 1, 1
+ball: 102.71451, 99.83624
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 102.71451, 99.83624
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 10[0m
+player_size: 1, 1
+ball: 103.22407, 99.769
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 103.22407, 99.769
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 11[0m
+player_size: 1, 1
+ball: 103.700226, 99.69573
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 103.700226, 99.69573
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 12[0m
+player_size: 1, 1
+ball: 104.19752, 99.60845
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 104.19752, 99.60845
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 13[0m
+player_size: 1, 1
+ball: 104.699265, 99.509254
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 104.699265, 99.509254
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 14[0m
+player_size: 1, 1
+ball: 105.19661, 99.39989
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 105.19661, 99.39989
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 15[0m
+player_size: 1, 1
+ball: 105.69405, 99.2795
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 105.69405, 99.2795
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 16[0m
+player_size: 1, 1
+ball: 106.21103, 99.14273
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 106.21103, 99.14273
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 17[0m
+player_size: 1, 1
+ball: 106.69651, 99.00348
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 106.69651, 99.00348
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 18[0m
+player_size: 1, 1
+ball: 107.20298, 98.847046
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 107.20298, 98.847046
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 19[0m
+player_size: 1, 1
+ball: 107.70571, 98.68049
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 107.70571, 98.68049
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 20[0m
+player_size: 1, 1
+ball: 108.2026, 98.50483
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 108.2026, 98.50483
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 21[0m
+player_size: 1, 1
+ball: 108.70412, 98.31641
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 108.70412, 98.31641
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 22[0m
+player_size: 1, 1
+ball: 109.19352, 98.12176
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 109.19352, 98.12176
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 23[0m
+player_size: 1, 1
+ball: 109.679855, 97.917786
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 109.679855, 97.917786
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 24[0m
+player_size: 1, 1
+ball: 110.204025, 97.68617
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 110.204025, 97.68617
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 25[0m
+player_size: 1, 1
+ball: 110.71387, 97.44917
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 110.71387, 97.44917
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 26[0m
+player_size: 1, 1
+ball: 111.18757, 97.21862
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 111.18757, 97.21862
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 27[0m
+player_size: 1, 1
+ball: 111.685875, 96.96533
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 111.685875, 96.96533
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 28[0m
+player_size: 1, 1
+ball: 112.18079, 96.70284
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 112.18079, 96.70284
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 29[0m
+player_size: 1, 1
+ball: 112.68233, 96.42574
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 112.68233, 96.42574
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 30[0m
+player_size: 1, 1
+ball: 113.17841, 96.14065
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 113.17841, 96.14065
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 31[0m
+player_size: 1, 1
+ball: 113.7005, 95.828804
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 113.7005, 95.828804
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 32[0m
+player_size: 1, 1
+ball: 114.21489, 95.509705
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 114.21489, 95.509705
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 33[0m
+player_size: 1, 1
+ball: 114.69661, 95.20021
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 114.69661, 95.20021
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 34[0m
+player_size: 1, 1
+ball: 115.19678, 94.86795
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 115.19678, 94.86795
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 35[0m
+player_size: 1, 1
+ball: 115.67973, 94.536575
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 115.67973, 94.536575
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 36[0m
+player_size: 1, 1
+ball: 116.17691, 94.18461
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 116.17691, 94.18461
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 37[0m
+player_size: 1, 1
+ball: 116.676125, 93.820145
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 116.676125, 93.820145
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 38[0m
+player_size: 1, 1
+ball: 117.1763, 93.44387
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 117.1763, 93.44387
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 39[0m
+player_size: 1, 1
+ball: 117.67153, 93.06036
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 117.67153, 93.06036
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 40[0m
+player_size: 1, 1
+ball: 118.17237, 92.66143
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 118.17237, 92.66143
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 41[0m
+player_size: 1, 1
+ball: 118.68749, 92.23949
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 118.68749, 92.23949
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 42[0m
+player_size: 1, 1
+ball: 119.2027, 91.80568
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 119.2027, 91.80568
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 43[0m
+player_size: 1, 1
+ball: 119.69333, 91.3816
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 119.69333, 91.3816
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 44[0m
+player_size: 1, 1
+ball: 120.182, 90.94858
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 120.182, 90.94858
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 45[0m
+player_size: 1, 1
+ball: 120.68124, 90.49524
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 120.68124, 90.49524
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 46[0m
+player_size: 1, 1
+ball: 121.186134, 90.02549
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 121.186134, 90.02549
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 47[0m
+player_size: 1, 1
+ball: 121.67748, 89.557465
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 121.67748, 89.557465
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 48[0m
+player_size: 1, 1
+ball: 122.18239, 89.06535
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 122.18239, 89.06535
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 49[0m
+player_size: 1, 1
+ball: 122.678734, 88.57054
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 122.678734, 88.57054
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 50[0m
+player_size: 1, 1
+ball: 123.179276, 88.060455
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 123.179276, 88.060455
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 51[0m
+player_size: 1, 1
+ball: 123.67943, 87.53964
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 123.67943, 87.53964
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 52[0m
+player_size: 1, 1
+ball: 124.17963, 87.00767
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 124.17963, 87.00767
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 53[0m
+player_size: 1, 1
+ball: 124.680984, 86.463295
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 124.680984, 86.463295
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 54[0m
+player_size: 1, 1
+ball: 125.17918, 85.91129
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 125.17918, 85.91129
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 55[0m
+player_size: 1, 1
+ball: 125.68474, 85.33985
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 125.68474, 85.33985
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 56[0m
+player_size: 1, 1
+ball: 126.1788, 84.77043
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 126.1788, 84.77043
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 57[0m
+player_size: 1, 1
+ball: 126.6763, 84.1861
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 126.6763, 84.1861
+player min: 184.5, 11.5
+player max: 189.5, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 58[0m
+player_size: 1, 1
+ball: 127.20839, 83.54895
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 127.20839, 83.54895
+player min: 183.3, 11.5
+player max: 188.3, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 59[0m
+player_size: 1, 1
+ball: 127.67993, 82.973785
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 127.67993, 82.973785
+player min: 182.1, 11.5
+player max: 187.1, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 60[0m
+player_size: 1, 1
+ball: 128.19197, 82.33804
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 128.19197, 82.33804
+player min: 180.90001, 11.5
+player max: 185.90001, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 61[0m
+player_size: 1, 1
+ball: 128.67946, 81.72195
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 128.67946, 81.72195
+player min: 179.70001, 11.5
+player max: 184.70001, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 62[0m
+player_size: 1, 1
+ball: 129.19743, 81.05574
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 129.19743, 81.05574
+player min: 178.50002, 11.5
+player max: 183.50002, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 63[0m
+player_size: 1, 1
+ball: 129.69023, 80.410866
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 129.69023, 80.410866
+player min: 177.30002, 11.5
+player max: 182.30002, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 64[0m
+player_size: 1, 1
+ball: 130.18932, 79.74675
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 130.18932, 79.74675
+player min: 176.10002, 11.5
+player max: 181.10002, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 65[0m
+player_size: 1, 1
+ball: 130.67903, 79.08434
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 130.67903, 79.08434
+player min: 174.90002, 11.5
+player max: 179.90002, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 66[0m
+player_size: 1, 1
+ball: 131.17271, 78.405785
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 131.17271, 78.405785
+player min: 173.70003, 11.5
+player max: 178.70003, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 67[0m
+player_size: 1, 1
+ball: 131.69011, 77.68301
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 131.69011, 77.68301
+player min: 172.50003, 11.5
+player max: 177.50003, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 68[0m
+player_size: 1, 1
+ball: 132.18222, 76.984505
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 132.18222, 76.984505
+player min: 171.30003, 11.5
+player max: 176.30003, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 69[0m
+player_size: 1, 1
+ball: 132.67526, 76.273895
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 132.67526, 76.273895
+player min: 170.10004, 11.5
+player max: 175.10004, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 70[0m
+player_size: 1, 1
+ball: 133.18146, 75.53309
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 133.18146, 75.53309
+player min: 168.90004, 11.5
+player max: 173.90004, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 71[0m
+player_size: 1, 1
+ball: 133.67484, 74.80007
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 133.67484, 74.80007
+player min: 167.70004, 11.5
+player max: 172.70004, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 72[0m
+player_size: 1, 1
+ball: 134.1818, 74.03563
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 134.1818, 74.03563
+player min: 166.50005, 11.5
+player max: 171.50005, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 73[0m
+player_size: 1, 1
+ball: 134.6685, 73.29096
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 134.6685, 73.29096
+player min: 165.30005, 11.5
+player max: 170.30005, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 74[0m
+player_size: 1, 1
+ball: 135.17738, 72.50111
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 135.17738, 72.50111
+player min: 164.10005, 11.5
+player max: 169.10005, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 75[0m
+player_size: 1, 1
+ball: 135.67088, 71.72414
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 135.67088, 71.72414
+player min: 162.90005, 11.5
+player max: 167.90005, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 76[0m
+player_size: 1, 1
+ball: 136.17021, 70.92698
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 136.17021, 70.92698
+player min: 161.70006, 11.5
+player max: 166.70006, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 77[0m
+player_size: 1, 1
+ball: 136.69539, 70.07659
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 136.69539, 70.07659
+player min: 160.50006, 11.5
+player max: 165.50006, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 78[0m
+player_size: 1, 1
+ball: 137.19571, 69.25505
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 137.19571, 69.25505
+player min: 159.30006, 11.5
+player max: 164.30006, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 79[0m
+player_size: 1, 1
+ball: 137.67464, 68.45821
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 137.67464, 68.45821
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 80[0m
+player_size: 1, 1
+ball: 138.1522, 67.65348
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 138.1522, 67.65348
+player min: 156.90007, 11.5
+player max: 161.90007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 81[0m
+player_size: 1, 1
+ball: 138.64949, 66.804756
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 138.64949, 66.804756
+player min: 155.70007, 11.5
+player max: 160.70007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 82[0m
+player_size: 1, 1
+ball: 139.14578, 65.946785
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 139.14578, 65.946785
+player min: 154.50008, 11.5
+player max: 159.50008, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 83[0m
+player_size: 1, 1
+ball: 139.64505, 65.07261
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 139.64505, 65.07261
+player min: 153.30008, 11.5
+player max: 158.30008, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 84[0m
+player_size: 1, 1
+ball: 140.14851, 64.17988
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 140.14851, 64.17988
+player min: 152.10008, 11.5
+player max: 157.10008, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 85[0m
+player_size: 1, 1
+ball: 140.64606, 63.286564
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 140.64606, 63.286564
+player min: 150.90009, 11.5
+player max: 155.90009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 86[0m
+player_size: 1, 1
+ball: 141.14598, 62.3779
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 141.14598, 62.3779
+player min: 149.70009, 11.5
+player max: 154.70009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 87[0m
+player_size: 1, 1
+ball: 141.6489, 61.452583
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 141.6489, 61.452583
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 88[0m
+player_size: 1, 1
+ball: 142.14897, 60.521347
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 142.14897, 60.521347
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 89[0m
+player_size: 1, 1
+ball: 142.64516, 59.58638
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 142.64516, 59.58638
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 90[0m
+player_size: 1, 1
+ball: 143.14401, 58.63535
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 143.14401, 58.63535
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 91[0m
+player_size: 1, 1
+ball: 143.64577, 57.66763
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 143.64577, 57.66763
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 92[0m
+player_size: 1, 1
+ball: 144.14166, 56.700226
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 144.14166, 56.700226
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 93[0m
+player_size: 1, 1
+ball: 144.64253, 55.71202
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 144.64253, 55.71202
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 94[0m
+player_size: 1, 1
+ball: 145.14388, 54.71172
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 145.14388, 54.71172
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 95[0m
+player_size: 1, 1
+ball: 145.64189, 53.706997
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 145.64189, 53.706997
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 96[0m
+player_size: 1, 1
+ball: 146.14255, 52.685814
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 146.14255, 52.685814
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 97[0m
+player_size: 1, 1
+ball: 146.64127, 51.65754
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 146.64127, 51.65754
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 98[0m
+player_size: 1, 1
+ball: 147.14326, 50.61133
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 147.14326, 50.61133
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 99[0m
+player_size: 1, 1
+ball: 147.63335, 49.579155
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 147.63335, 49.579155
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 100[0m
+player_size: 1, 1
+ball: 148.13281, 48.516228
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 148.13281, 48.516228
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 101[0m
+player_size: 1, 1
+ball: 148.63808, 47.42968
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 148.63808, 47.42968
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 102[0m
+player_size: 1, 1
+ball: 149.13783, 46.34382
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 149.13783, 46.34382
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 103[0m
+player_size: 1, 1
+ball: 149.63547, 45.25154
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 149.63547, 45.25154
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 104[0m
+player_size: 1, 1
+ball: 150.14104, 44.13055
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 150.14104, 44.13055
+player min: 148.50009, 11.5
+player max: 153.50009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 105[0m
+player_size: 1, 1
+ball: 150.63953, 43.014156
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 150.63953, 43.014156
+player min: 149.70009, 11.5
+player max: 154.70009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 106[0m
+player_size: 1, 1
+ball: 151.13914, 41.884132
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 151.13914, 41.884132
+player min: 150.90009, 11.5
+player max: 155.90009, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 107[0m
+player_size: 1, 1
+ball: 151.63655, 40.748108
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 151.63655, 40.748108
+player min: 152.10008, 11.5
+player max: 157.10008, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 108[0m
+player_size: 1, 1
+ball: 152.13759, 39.59266
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 152.13759, 39.59266
+player min: 153.30008, 11.5
+player max: 158.30008, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 109[0m
+player_size: 1, 1
+ball: 152.64108, 38.420315
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 152.64108, 38.420315
+player min: 154.50008, 11.5
+player max: 159.50008, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 110[0m
+player_size: 1, 1
+ball: 153.16083, 37.198322
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 153.16083, 37.198322
+player min: 155.70007, 11.5
+player max: 160.70007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 111[0m
+player_size: 1, 1
+ball: 153.66963, 35.990414
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 153.66963, 35.990414
+player min: 156.90007, 11.5
+player max: 161.90007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 112[0m
+player_size: 1, 1
+ball: 154.16432, 34.804966
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 154.16432, 34.804966
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 113[0m
+player_size: 1, 1
+ball: 154.67783, 33.562943
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 154.67783, 33.562943
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 114[0m
+player_size: 1, 1
+ball: 155.13206, 32.454517
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 155.13206, 32.454517
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 115[0m
+player_size: 1, 1
+ball: 155.63205, 31.223837
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 155.63205, 31.223837
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 116[0m
+player_size: 1, 1
+ball: 156.12996, 29.987228
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 156.12996, 29.987228
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 117[0m
+player_size: 1, 1
+ball: 156.62732, 28.740988
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 156.62732, 28.740988
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 118[0m
+player_size: 1, 1
+ball: 157.12265, 27.488913
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 157.12265, 27.488913
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 119[0m
+player_size: 1, 1
+ball: 157.63441, 26.183838
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 157.63441, 26.183838
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 120[0m
+player_size: 1, 1
+ball: 158.15085, 24.855045
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 158.15085, 24.855045
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 121[0m
+player_size: 1, 1
+ball: 158.65587, 23.544174
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 158.65587, 23.544174
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 122[0m
+player_size: 1, 1
+ball: 159.15735, 22.231268
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 159.15735, 22.231268
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 123[0m
+player_size: 1, 1
+ball: 159.65056, 20.929096
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 159.65056, 20.929096
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 124[0m
+player_size: 1, 1
+ball: 160.14447, 19.61423
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 160.14447, 19.61423
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+Collide!
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 125[0m
+player_size: 1, 1
+ball: 159.64761, 18.280596
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 159.64761, 18.280596
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+Collide!
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 126[0m
+player_size: 1, 1
+ball: 159.16333, 16.970139
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 159.16333, 16.970139
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+Collide!
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 127[0m
+player_size: 1, 1
+ball: 158.64001, 15.5423565
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 158.64001, 15.5423565
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+Collide!
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 128[0m
+player_size: 1, 1
+ball: 158.1639, 14.232784
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 158.1639, 14.232784
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+Collide!
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 129[0m
+player_size: 1, 1
+ball: 157.66652, 12.853977
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 157.66652, 12.853977
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 130[0m
+player_size: 1, 1
+ball: 157.16838, 11.46204
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 157.16838, 11.46204
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 131[0m
+player_size: 1, 1
+ball: 156.66728, 10.050692
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 156.66728, 10.050692
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 132[0m
+player_size: 1, 1
+ball: 156.18025, 8.668261
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 156.18025, 8.668261
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 133[0m
+player_size: 1, 1
+ball: 155.66908, 7.2059736
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 155.66908, 7.2059736
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 134[0m
+player_size: 1, 1
+ball: 155.14767, 5.7024465
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 155.14767, 5.7024465
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 135[0m
+player_size: 1, 1
+ball: 154.64973, 4.2553163
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 154.64973, 4.2553163
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 136[0m
+player_size: 1, 1
+ball: 154.11487, 2.68858
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 154.11487, 2.68858
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 137[0m
+player_size: 1, 1
+ball: 153.65578, 4.034096
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 153.65578, 4.034096
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 138[0m
+player_size: 1, 1
+ball: 153.14491, 5.520353
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 153.14491, 5.520353
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 139[0m
+player_size: 1, 1
+ball: 152.66719, 6.899719
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 152.66719, 6.899719
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 140[0m
+player_size: 1, 1
+ball: 152.17053, 8.323007
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 152.17053, 8.323007
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 141[0m
+player_size: 1, 1
+ball: 151.67667, 9.727394
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 151.67667, 9.727394
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 142[0m
+player_size: 1, 1
+ball: 151.1761, 11.139772
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 151.1761, 11.139772
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 143[0m
+player_size: 1, 1
+ball: 150.66498, 12.57046
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 150.66498, 12.57046
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 144[0m
+player_size: 1, 1
+ball: 150.16042, 13.971414
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 150.16042, 13.971414
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 145[0m
+player_size: 1, 1
+ball: 149.66089, 15.347227
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 149.66089, 15.347227
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 146[0m
+player_size: 1, 1
+ball: 149.16698, 16.696667
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 149.16698, 16.696667
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 147[0m
+player_size: 1, 1
+ball: 148.6634, 18.061317
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 148.6634, 18.061317
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 148[0m
+player_size: 1, 1
+ball: 148.16943, 19.38903
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 148.16943, 19.38903
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 149[0m
+player_size: 1, 1
+ball: 147.6697, 20.721203
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 147.6697, 20.721203
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 150[0m
+player_size: 1, 1
+ball: 147.16843, 22.046295
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 147.16843, 22.046295
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 151[0m
+player_size: 1, 1
+ball: 146.6669, 23.36089
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 146.6669, 23.36089
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 152[0m
+player_size: 1, 1
+ball: 146.17046, 24.651165
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 146.17046, 24.651165
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 153[0m
+player_size: 1, 1
+ball: 145.67503, 25.927856
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 145.67503, 25.927856
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 154[0m
+player_size: 1, 1
+ball: 145.17235, 27.212133
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 145.17235, 27.212133
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 155[0m
+player_size: 1, 1
+ball: 144.67291, 28.476955
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 144.67291, 28.476955
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 156[0m
+player_size: 1, 1
+ball: 144.17477, 29.727474
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 144.17477, 29.727474
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 157[0m
+player_size: 1, 1
+ball: 143.6767, 30.966805
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 143.6767, 30.966805
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 158[0m
+player_size: 1, 1
+ball: 143.17793, 32.196774
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 143.17793, 32.196774
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 159[0m
+player_size: 1, 1
+ball: 142.67334, 33.42989
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 142.67334, 33.42989
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 160[0m
+player_size: 1, 1
+ball: 142.17004, 34.648575
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 142.17004, 34.648575
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 161[0m
+player_size: 1, 1
+ball: 141.6761, 35.83363
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 141.6761, 35.83363
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 162[0m
+player_size: 1, 1
+ball: 141.14977, 37.0845
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 141.14977, 37.0845
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 163[0m
+player_size: 1, 1
+ball: 140.66368, 38.228756
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 140.66368, 38.228756
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 164[0m
+player_size: 1, 1
+ball: 140.15796, 39.40811
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 140.15796, 39.40811
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 165[0m
+player_size: 1, 1
+ball: 139.66019, 40.55783
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 139.66019, 40.55783
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 166[0m
+player_size: 1, 1
+ball: 139.1736, 41.671043
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 139.1736, 41.671043
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 167[0m
+player_size: 1, 1
+ball: 138.6773, 42.795635
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 138.6773, 42.795635
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 168[0m
+player_size: 1, 1
+ball: 138.1601, 43.95597
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 138.1601, 43.95597
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 169[0m
+player_size: 1, 1
+ball: 137.65588, 45.07571
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 137.65588, 45.07571
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 170[0m
+player_size: 1, 1
+ball: 137.13632, 46.217712
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 137.13632, 46.217712
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 171[0m
+player_size: 1, 1
+ball: 136.67421, 47.22335
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 136.67421, 47.22335
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 172[0m
+player_size: 1, 1
+ball: 136.17313, 48.30309
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 136.17313, 48.30309
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 173[0m
+player_size: 1, 1
+ball: 135.67712, 49.360874
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 135.67712, 49.360874
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 174[0m
+player_size: 1, 1
+ball: 135.11638, 50.543575
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 135.11638, 50.543575
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 175[0m
+player_size: 1, 1
+ball: 134.6663, 51.482735
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 134.6663, 51.482735
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 176[0m
+player_size: 1, 1
+ball: 134.1916, 52.46352
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 134.1916, 52.46352
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 177[0m
+player_size: 1, 1
+ball: 133.69965, 53.469418
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 133.69965, 53.469418
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 178[0m
+player_size: 1, 1
+ball: 133.20789, 54.46414
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 133.20789, 54.46414
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 179[0m
+player_size: 1, 1
+ball: 132.70032, 55.47957
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 132.70032, 55.47957
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 180[0m
+player_size: 1, 1
+ball: 132.16457, 56.538975
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 132.16457, 56.538975
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 181[0m
+player_size: 1, 1
+ball: 131.67665, 57.49268
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 131.67665, 57.49268
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 182[0m
+player_size: 1, 1
+ball: 131.14137, 58.52681
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 131.14137, 58.52681
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 183[0m
+player_size: 1, 1
+ball: 130.6913, 59.386467
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 130.6913, 59.386467
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 184[0m
+player_size: 1, 1
+ball: 130.19086, 60.33175
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 130.19086, 60.33175
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 185[0m
+player_size: 1, 1
+ball: 129.65143, 61.338203
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 129.65143, 61.338203
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 186[0m
+player_size: 1, 1
+ball: 129.16801, 62.229156
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 129.16801, 62.229156
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 187[0m
+player_size: 1, 1
+ball: 128.7041, 63.0744
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 128.7041, 63.0744
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 188[0m
+player_size: 1, 1
+ball: 128.20776, 63.96814
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 128.20776, 63.96814
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 189[0m
+player_size: 1, 1
+ball: 127.71027, 64.85297
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 127.71027, 64.85297
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 190[0m
+player_size: 1, 1
+ball: 127.17878, 65.786125
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 127.17878, 65.786125
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 191[0m
+player_size: 1, 1
+ball: 126.68668, 66.63892
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 126.68668, 66.63892
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 192[0m
+player_size: 1, 1
+ball: 126.180565, 67.50479
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 126.180565, 67.50479
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 193[0m
+player_size: 1, 1
+ball: 125.66543, 68.3744
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 125.66543, 68.3744
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 194[0m
+player_size: 1, 1
+ball: 125.19245, 69.162445
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 125.19245, 69.162445
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 195[0m
+player_size: 1, 1
+ball: 124.70398, 69.96587
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 124.70398, 69.96587
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 196[0m
+player_size: 1, 1
+ball: 124.21824, 70.75429
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 124.21824, 70.75429
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 197[0m
+player_size: 1, 1
+ball: 123.695854, 71.59048
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 123.695854, 71.59048
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 198[0m
+player_size: 1, 1
+ball: 123.216064, 72.34781
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 123.216064, 72.34781
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 199[0m
+player_size: 1, 1
+ball: 122.68544, 73.17346
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 122.68544, 73.17346
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 200[0m
+player_size: 1, 1
+ball: 122.191986, 73.930046
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 122.191986, 73.930046
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 201[0m
+player_size: 1, 1
+ball: 121.65282, 74.744354
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 121.65282, 74.744354
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 202[0m
+player_size: 1, 1
+ball: 121.215965, 75.39465
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 121.215965, 75.39465
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 203[0m
+player_size: 1, 1
+ball: 120.69726, 76.155785
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 120.69726, 76.155785
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 204[0m
+player_size: 1, 1
+ball: 120.21569, 76.85172
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 120.21569, 76.85172
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 205[0m
+player_size: 1, 1
+ball: 119.7114, 77.56944
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 119.7114, 77.56944
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 206[0m
+player_size: 1, 1
+ball: 119.20786, 78.274826
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 119.20786, 78.274826
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 207[0m
+player_size: 1, 1
+ball: 118.71005, 78.9611
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 118.71005, 78.9611
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 208[0m
+player_size: 1, 1
+ball: 118.2223, 79.622826
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 118.2223, 79.622826
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 209[0m
+player_size: 1, 1
+ball: 117.7241, 80.2878
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 117.7241, 80.2878
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 210[0m
+player_size: 1, 1
+ball: 117.22338, 80.94504
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 117.22338, 80.94504
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 211[0m
+player_size: 1, 1
+ball: 116.720695, 81.59364
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 116.720695, 81.59364
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 212[0m
+player_size: 1, 1
+ball: 116.2274, 82.219215
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 116.2274, 82.219215
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 213[0m
+player_size: 1, 1
+ball: 115.724266, 82.84612
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 115.724266, 82.84612
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 214[0m
+player_size: 1, 1
+ball: 115.22549, 83.4565
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 115.22549, 83.4565
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 215[0m
+player_size: 1, 1
+ball: 114.72539, 84.05739
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 114.72539, 84.05739
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 216[0m
+player_size: 1, 1
+ball: 114.224236, 84.64839
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 114.224236, 84.64839
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 217[0m
+player_size: 1, 1
+ball: 113.706345, 85.247406
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 113.706345, 85.247406
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 218[0m
+player_size: 1, 1
+ball: 113.20038, 85.82111
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 113.20038, 85.82111
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 219[0m
+player_size: 1, 1
+ball: 112.684296, 86.39458
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 112.684296, 86.39458
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 220[0m
+player_size: 1, 1
+ball: 112.193886, 86.92854
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 112.193886, 86.92854
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 221[0m
+player_size: 1, 1
+ball: 111.68139, 87.475136
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 111.68139, 87.475136
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 222[0m
+player_size: 1, 1
+ball: 111.21301, 87.96446
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 111.21301, 87.96446
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 223[0m
+player_size: 1, 1
+ball: 110.726944, 88.46196
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 110.726944, 88.46196
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 224[0m
+player_size: 1, 1
+ball: 110.2312, 88.95855
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 110.2312, 88.95855
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 225[0m
+player_size: 1, 1
+ball: 109.729324, 89.45015
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 109.729324, 89.45015
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 226[0m
+player_size: 1, 1
+ball: 109.23133, 89.92688
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 109.23133, 89.92688
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 227[0m
+player_size: 1, 1
+ball: 108.6623, 90.45812
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 108.6623, 90.45812
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 228[0m
+player_size: 1, 1
+ball: 108.154205, 90.92032
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 108.154205, 90.92032
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 229[0m
+player_size: 1, 1
+ball: 107.704124, 91.32016
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 107.704124, 91.32016
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 230[0m
+player_size: 1, 1
+ball: 107.22054, 91.73973
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 107.22054, 91.73973
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 231[0m
+player_size: 1, 1
+ball: 106.715355, 92.16695
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 106.715355, 92.16695
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 232[0m
+player_size: 1, 1
+ball: 106.23951, 92.55897
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 106.23951, 92.55897
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 233[0m
+player_size: 1, 1
+ball: 105.738304, 92.961006
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 105.738304, 92.961006
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 234[0m
+player_size: 1, 1
+ball: 105.23593, 93.352776
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 105.23593, 93.352776
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 235[0m
+player_size: 1, 1
+ball: 104.737526, 93.73036
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 104.737526, 93.73036
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 236[0m
+player_size: 1, 1
+ball: 104.22125, 94.10985
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 104.22125, 94.10985
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 237[0m
+player_size: 1, 1
+ball: 103.6987, 94.48189
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 103.6987, 94.48189
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 238[0m
+player_size: 1, 1
+ball: 103.20782, 94.82033
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 103.20782, 94.82033
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 239[0m
+player_size: 1, 1
+ball: 102.70454, 95.15619
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 102.70454, 95.15619
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 240[0m
+player_size: 1, 1
+ball: 102.21643, 95.471176
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 102.21643, 95.471176
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 241[0m
+player_size: 1, 1
+ball: 101.709625, 95.787025
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 101.709625, 95.787025
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 242[0m
+player_size: 1, 1
+ball: 101.21818, 96.0824
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 101.21818, 96.0824
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 243[0m
+player_size: 1, 1
+ball: 100.731606, 96.364265
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 100.731606, 96.364265
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 244[0m
+player_size: 1, 1
+ball: 100.22184, 96.648285
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 100.22184, 96.648285
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 245[0m
+player_size: 1, 1
+ball: 99.7052, 96.92435
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 99.7052, 96.92435
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 246[0m
+player_size: 1, 1
+ball: 99.174774, 97.195435
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 99.174774, 97.195435
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 247[0m
+player_size: 1, 1
+ball: 98.71099, 97.42222
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 98.71099, 97.42222
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 248[0m
+player_size: 1, 1
+ball: 98.22057, 97.65163
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 98.22057, 97.65163
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 249[0m
+player_size: 1, 1
+ball: 97.699524, 97.88365
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 97.699524, 97.88365
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 250[0m
+player_size: 1, 1
+ball: 97.21386, 98.08906
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 97.21386, 98.08906
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 251[0m
+player_size: 1, 1
+ball: 96.6995, 98.295166
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 96.6995, 98.295166
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 252[0m
+player_size: 1, 1
+ball: 96.22752, 98.473946
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 96.22752, 98.473946
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 253[0m
+player_size: 1, 1
+ball: 95.72276, 98.65419
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 95.72276, 98.65419
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 254[0m
+player_size: 1, 1
+ball: 95.229324, 98.81944
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 95.229324, 98.81944
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 255[0m
+player_size: 1, 1
+ball: 94.722855, 98.977806
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 94.722855, 98.977806
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 256[0m
+player_size: 1, 1
+ball: 94.22689, 99.12183
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 94.22689, 99.12183
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 257[0m
+player_size: 1, 1
+ball: 93.72697, 99.25595
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 93.72697, 99.25595
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 258[0m
+player_size: 1, 1
+ball: 93.22195, 99.38016
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 93.22195, 99.38016
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 259[0m
+player_size: 1, 1
+ball: 92.70526, 99.4955
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 92.70526, 99.4955
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 260[0m
+player_size: 1, 1
+ball: 92.18955, 99.59879
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 92.18955, 99.59879
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 261[0m
+player_size: 1, 1
+ball: 91.73951, 99.679276
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 91.73951, 99.679276
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 262[0m
+player_size: 1, 1
+ball: 91.24712, 99.75702
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 91.24712, 99.75702
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 263[0m
+player_size: 1, 1
+ball: 90.743774, 99.825356
+player min: 6.5, 11.5
+player max: 11.5, 16.5
+player_size: 1, 1
+ball: 90.743774, 99.825356
+player min: 158.10007, 11.5
+player max: 163.10007, 16.5
+[37m[INFO][gfx_device_gl::factory] 	Created buffer 264[0m
+[37m[INFO][amethyst::app] Engine is shutting down[0m
