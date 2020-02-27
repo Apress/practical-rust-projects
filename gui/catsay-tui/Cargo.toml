@@ -1,0 +1,8 @@
+[package]
+name = "catsay-tui"
+version = "0.1.0"
+authors = ["Shing Lyu <shing.lyu@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+cursive = "0.11.2"

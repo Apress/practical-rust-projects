@@ -1,0 +1,12 @@
+[package]
+name = "catsay-gui-glade"
+version = "0.1.0"
+authors = ["Shing Lyu <shing.lyu@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+gio = "0.6.0"
+
+[dependencies.gtk]
+version = "0.6.0"  # the gtk crate version
+features = ["v3_18"]  # system gtk version

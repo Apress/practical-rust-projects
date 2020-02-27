@@ -1,0 +1,7 @@
+centroids = [ # Height, length
+    22.5, 40.5, # persian
+    38.0, 50.0, # British short hair
+    25.5, 48.0, # Ragdoll
+]
+noise = 100
+samples_per_centroid = 2
