@@ -1,0 +1,8 @@
+[package]
+name = "blink-cross-compile"
+version = "0.1.0"
+authors = ["Shing Lyu <shing.lyu@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rust_gpiozero = "0.2.0"
